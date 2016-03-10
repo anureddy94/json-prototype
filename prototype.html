@@ -1,0 +1,17 @@
+<!doctype html>
+  <html>
+<head></head>
+  <body>
+<script>
+  function object(color,name,type){
+    this.color=color;
+    this.name=name;
+    this.type=type;
+  }
+
+  var myWish=new object("white","snoopy","doll");
+  object.prototype.age=12;
+  document.write(myWish.age);
+</script>
+</body>
+</html>
